@@ -1,0 +1,30 @@
+Part 1: Auditing and Test Cases
+(Release: https://github.com/NYUAppSec/appsec-homework-2-kl4921/releases/tag/hw2p1handin)
+
+Actions:
+
+- Create four test cases/attacks, xss.txt, xsrf.html, sqli.gftcrd, cmdi.txt with cmdi.gftcrd in part1 directory. 
+- Fix the vulnerabilities that are exploited by the attacks
+- Add new used libraries to requirements.txt
+- Create a GitHub action main.yml to run the tests
+- Added a commit with fixed version of giftcardreader.c 
+
+
+Files:
+
+- xss.txt (new)
+- xsrf.html (new)
+- sqli.gftcrd (new)
+- cmdi.txt & cmdi.gftcrd (new)
+- requirements.txt (modified)
+- main.yml (new)
+
+
+Description:
+
+First, I inspected the models.py, views.py, and extras.py from the LegacySite folder.
+
+
+main.yml is created to include running new tests.
+
+New and updated files including the fixed version of the code are committed.

